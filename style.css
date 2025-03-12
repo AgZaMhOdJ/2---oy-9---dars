@@ -23,6 +23,7 @@ header .container {
 
 section .container{
     display: flex;
+    align-items: center;
 }
 
 .a2{
