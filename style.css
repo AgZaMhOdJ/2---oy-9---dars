@@ -59,7 +59,15 @@ h2{
 
 }
 
-.services .card {
+.services .card1{
+    width: 32%;
+    background-color: #458FF6;
+    border-radius: 25px;
+    padding: 30px 40px 30px 40px;
+    box-sizing: border-box;
+}
+
+.services .card2 {
     width: 32%;
     background-color: #E7E7E7;
     border-radius: 25px;
