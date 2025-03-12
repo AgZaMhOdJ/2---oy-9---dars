@@ -16,14 +16,24 @@ header .container {
     justify-content: space-between;
 }
 
+header a:hover {
+    color: #458FF6;
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
 }
 
-section .container{
+.intro .container{
     display: flex;
     align-items: center;
+}
+
+.intro a:hover {
+    background-color: white;
+    color: #458FF6;
+    border: 1px solid #458FF6;
 }
 
 .a2{
@@ -37,11 +47,63 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h12{
+h2{
     text-align: center;
 }
 
 .p2{
     color: #7D7987;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.services .card {
+    width: 32%;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+    padding: 30px 40px 30px 40px;
+    box-sizing: border-box;
+}
+
+.services .box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.services a {
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+.services a:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.services p {
+    color: #7D7987;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info .healthcare1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info a {
+    color: #458FF6;
+    border: 2px solid #458FF6;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
 }
