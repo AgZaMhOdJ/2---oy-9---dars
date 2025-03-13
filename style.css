@@ -126,3 +126,7 @@ h2{
     background-color: #FFFFFF;
     border-radius: 15px;
 }
+
+.news h2 {
+    margin-bottom: 40px;
+}
