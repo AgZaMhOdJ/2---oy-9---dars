@@ -115,3 +115,14 @@ h2{
     padding: 10px 20px 10px 20px;
     border-radius: 25px;
 }
+
+.news .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .card3 {
+    width: 32%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
